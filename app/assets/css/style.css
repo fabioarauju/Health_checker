@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+    --grey: #D3D4D9;
+    --blue: #4B88A2;
+    --red: #BB0A21;
+    --creme: #FFF9FB;
+    --grafite: #252627;
+    --font-main: "Red Hat Display";
+    --font-sec: "Hind Siliguri";
+    font-size: 10px;
+}
+
+@theme {
+    --color-primary: var(--blue);
+    --color-red: var(--red);
+    --color-creme: var(--creme);
+    --color-grafite: var(--grafite);
+    --ui-bg: var(--grafite);
+    --ui-text: var(--creme);
+}

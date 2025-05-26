@@ -1,0 +1,47 @@
+.card {
+    background-color: var(--blue);
+    width: 40%;
+    border-radius: 10px;
+}
+
+.content{
+    color: var(--creme);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.contentUrl{
+    width: 40%;
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.url{
+    text-align: center;
+    font-size: 2rem;
+}
+
+input{
+    width: 100%;
+    background-color: var(--creme);
+    padding: 0.4rem;
+    color: black;
+    border-radius: 10px;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: var(--creme);
+    color: black;
+    padding:0.5rem;
+    border-radius: 20px;
+}
